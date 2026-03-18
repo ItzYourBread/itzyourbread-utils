@@ -1,0 +1,27 @@
+{
+  "name": "@itzyourbread/utils",
+  "version": "1.0.0",
+  "description": "All-in-one utility library for Node.js & browser with TypeScript support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test.js"
+  },
+  "keywords": [
+    "utils",
+    "typescript",
+    "node",
+    "library",
+    "helpers"
+  ],
+  "author": "Arif Satify",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
