@@ -12,6 +12,9 @@
     "test": "node dist/test.js",
     "prepublishOnly": "npm run build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "utils",
     "typescript",
