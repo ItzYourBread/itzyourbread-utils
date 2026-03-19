@@ -4,9 +4,13 @@
   "description": "All-in-one utility library for Node.js & browser with TypeScript support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "test": "node dist/test.js"
+    "test": "node dist/test.js",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "utils",
@@ -19,9 +23,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.5.0",
+    "@types/node-fetch": "^2.6.13",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.7.0"
   }
 }
