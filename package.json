@@ -22,7 +22,7 @@
     "library",
     "helpers"
   ],
-  "author": "Arif Satify",
+  "author": "itzyourbread",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.5.0",
